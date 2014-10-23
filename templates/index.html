@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Grunt frontend boilerplate</title>
+    <title>Источник звука - Главная</title>
+    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Roboto:400,100,700&subset=cyrillic-ext,latin' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/main.css">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -10,7 +11,13 @@
     <![endif]-->
 </head>
 <body>
-    {{>hello}}
+    <div class="container">
+        {{>header}}
+        <main class="content">
+            <h1>content</h1>
+        </main>
+        {{>footer}}
+    </div>
 
     <script src="vendors/plugins.min.js"></script>
     <script src="js/main.js"></script>

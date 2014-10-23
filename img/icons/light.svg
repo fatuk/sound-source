@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<g>
+	<path fill="#48555C" d="M23,5.7h-2.6c-0.3,0-0.5,0.2-0.5,0.5s0.2,0.5,0.5,0.5H23c0.3,0,0.5-0.2,0.5-0.5S23.3,5.7,23,5.7z"/>
+	<path fill="#48555C" d="M9.6,5.7H7c-0.3,0-0.5,0.2-0.5,0.5S6.7,6.7,7,6.7h2.6c0.3,0,0.5-0.2,0.5-0.5S9.8,5.7,9.6,5.7z"/>
+	<path fill="#48555C" d="M3.2,8.4C3,8.2,2.7,8.3,2.5,8.6l-1,2.1c-0.1,0.2,0,0.5,0.2,0.7c0.1,0,0.1,0,0.2,0c0.2,0,0.4-0.1,0.5-0.3
+		l1-2.1C3.6,8.8,3.5,8.5,3.2,8.4z"/>
+	<path fill="#48555C" d="M28.5,10.7l-1-2.1c-0.1-0.2-0.4-0.4-0.7-0.2c-0.2,0.1-0.4,0.4-0.2,0.7l1,2.1c0.1,0.2,0.3,0.3,0.5,0.3
+		c0.1,0,0.1,0,0.2,0C28.5,11.2,28.6,10.9,28.5,10.7z"/>
+</g>
+<path fill="#B9E3D7" d="M3,8.7l4.8,20.4c0,0,12,2,18,0L7.2,6.2L3,8.7z"/>
+<path fill="#F8C255" d="M27,8.7l-4.8,20.4c0,0-12,2-18,0L22.8,6.2L27,8.7z"/>
+<path fill="#FDEDCC" d="M7,25.6l0.8,3.5c0,0,3.2,0.6,7.2,0.8c4-0.2,7.2-0.8,7.2-0.8l0.8-3.5l-8-9.8L7,25.6z"/>
+<ellipse transform="matrix(0.866 -0.5 0.5 0.866 -3.1023 3.6117)" fill="#FFFFFF" cx="5.2" cy="7.6" rx="2.5" ry="0.8"/>
+<ellipse transform="matrix(0.866 -0.5 0.5 0.866 -0.878 1.413)" fill="#333333" cx="2.2" cy="2.3" rx="2.5" ry="0.8"/>
+<polygon fill="#48555C" points="7.3,6.3 5.2,7.6 3,8.8 0,3.6 2.2,2.4 4.3,1.1 "/>
+<polygon fill="#67767C" points="7.3,6.3 5.6,7.3 2.6,2.1 4.3,1.1 "/>
+<ellipse transform="matrix(-0.866 -0.5 0.5 -0.866 42.5016 26.578)" fill="#FFFFFF" cx="24.8" cy="7.6" rx="2.5" ry="0.8"/>
+<ellipse transform="matrix(-0.866 -0.5 0.5 -0.866 50.7075 18.2767)" fill="#333333" cx="27.8" cy="2.3" rx="2.5" ry="0.8"/>
+<polygon fill="#48555C" points="22.7,6.3 24.8,7.6 27,8.8 30,3.6 27.8,2.4 25.7,1.1 "/>
+<polygon fill="#67767C" points="25.3,7.8 27,8.8 30,3.6 28.3,2.6 "/>
+<ellipse fill="#FFFFFF" cx="15" cy="29.1" rx="7.2" ry="0.9"/>
+</svg>
