@@ -1,76 +1,98 @@
-<header class="site-header row">
-	<div class="site-header__container col-md-12">
-		<!-- Logo -->
-		<div class="site-header__logo">
-			<img src="" alt="" class="site-header__logo-img">
-			<p class="site-header__logo-text">
-				Источник звука
-			</p>
+<header class="site-header">
+	<div class="container">
+		<div class="site-header__container">
+			<!-- Logo -->
+			<div class="site-header__logo">
+				<img src="img/logo.svg" alt="" class="site-header__logo-img">
+			</div>
+			<!-- Info -->
+			<div class="site-header__info">
+				<ul class="site-header__info-list">
+					<li class="site-header__info-item">
+						<a href="tel:88002345687" class="site-header__info-link site-header__info-link_strong">
+							8-800-234-56-87
+						</a>
+					</li>
+					<li class="site-header__info-item">
+						<a href="#" class="site-header__info-link">
+							Как оплатить
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- Search -->
+			<div class="form form_right">
+				<form action="#">
+					<div class="field field_search">
+						<input type="text" class="input input_search" placeholder="Что ищем?">
+						<button class="btn btn_icon btn_search">
+							<img class="icon icon-search" src="img/icons/search.svg" alt="">
+						</button>
+					</div>
+				</form>
+			</div>
 		</div>
-		<!-- Info -->
-		<div class="site-header__info">
-			<ul class="site-header__info-list">
-				<li class="site-header__info-item">
-					<a href="tel:88002345687" class="site-header__info-link">
-						8-800-234-56-87
+		<!-- Menu -->
+		<nav class="main-menu">
+			<h2 class="main-menu__title">
+				Выберите категорию инструментов
+			</h2>
+			<ul class="main-menu__list">
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__link">
+						<img src="img/icons/dj.svg" alt="" class="main-menu__img">
+						<span class="main-menu__text">Dj</span>
 					</a>
 				</li>
-				<li class="site-header__info-item">
-					<a href="#" class="site-header__info-link">
-						Как оплатить?
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__link">
+						<img src="img/icons/guitar.svg" alt="" class="main-menu__img">
+						<span class="main-menu__text">Гитары</span>
+					</a>
+				</li>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__link">
+						<img src="img/icons/wind.svg" alt="" class="main-menu__img">
+						<span class="main-menu__text">Духовные</span>
+					</a>
+				</li>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__link">
+						<img src="img/icons/keyboard.svg" alt="" class="main-menu__img">
+						<span class="main-menu__text">Клавишные</span>
+					</a>
+				</li>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__link">
+						<img src="img/icons/bow.svg" alt="" class="main-menu__img">
+						<span class="main-menu__text">Смычковые</span>
+					</a>
+				</li>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__link">
+						<img src="img/icons/beat.svg" alt="" class="main-menu__img">
+						<span class="main-menu__text">Ударные</span>
+					</a>
+				</li>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__link">
+						<img src="img/icons/sound.svg" alt="" class="main-menu__img">
+						<span class="main-menu__text">Звук</span>
+					</a>
+				</li>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__link">
+						<img src="img/icons/folk.svg" alt="" class="main-menu__img">
+						<span class="main-menu__text">Этно</span>
+					</a>
+				</li>
+				<li class="main-menu__item">
+					<a href="#" class="main-menu__link">
+						<img src="img/icons/light.svg" alt="" class="main-menu__img">
+						<span class="main-menu__text">Свет</span>
 					</a>
 				</li>
 			</ul>
-		</div>
-		<!-- Search -->
-		<div class="form">
-			<form action="#">
-				<div class="field">
-					<input type="text" class="input input_search">
-					<input type="submit" class="btn btn_search">
-				</div>
-			</form>
-		</div>
+		</nav>
 	</div>
-	<!-- Menu -->
-	<nav class="site-menu">
-		<ul class="site-menu__list">
-			<li class="site-menu__item">
-				<img src="#" alt="" class="site-menu__img">
-				<span class="site-menu__text">Dj</span>
-			</li>
-			<li class="site-menu__item">
-				<img src="#" alt="" class="site-menu__img">
-				<span class="site-menu__text">Гитары</span>
-			</li>
-			<li class="site-menu__item">
-				<img src="#" alt="" class="site-menu__img">
-				<span class="site-menu__text">Духовные</span>
-			</li>
-			<li class="site-menu__item">
-				<img src="#" alt="" class="site-menu__img">
-				<span class="site-menu__text">Клавишные</span>
-			</li>
-			<li class="site-menu__item">
-				<img src="#" alt="" class="site-menu__img">
-				<span class="site-menu__text">Смычковые</span>
-			</li>
-			<li class="site-menu__item">
-				<img src="#" alt="" class="site-menu__img">
-				<span class="site-menu__text">Ударные</span>
-			</li>
-			<li class="site-menu__item">
-				<img src="#" alt="" class="site-menu__img">
-				<span class="site-menu__text">Звук</span>
-			</li>
-			<li class="site-menu__item">
-				<img src="#" alt="" class="site-menu__img">
-				<span class="site-menu__text">Этно</span>
-			</li>
-			<li class="site-menu__item">
-				<img src="#" alt="" class="site-menu__img">
-				<span class="site-menu__text">Свет</span>
-			</li>
-		</ul>
-	</nav>
 </header>

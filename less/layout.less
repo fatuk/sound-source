@@ -1,3 +1,27 @@
 body {
 	.roboto();
 }
+
+a {
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a,
+input,
+select,
+button,
+textarea {
+	&:focus {
+		outline: none;
+	}
+}
+
+.container {
+	width: 1180px;
+	margin: 0 auto;
+	.clearfix();
+}

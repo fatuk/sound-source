@@ -1,31 +1,56 @@
 .site-header {
-	background: url('../img/background.jpg') no-repeat;
+	background: linear-gradient(rgba(43,25,67,0.35), rgba(43,25,67,0.35)), url('../img/background.jpg') no-repeat;
 	background-size: cover;
-	background-color: rgba(43,25,67,0.35);
+	.form {
+		margin-top: 50px;
+	}
 	&__container {
-
+		.clearfix();
 	}
 	&__logo {
-		display: inline-block;
+		float: left;
 	}
 	&__logo-img {
-
+		width: 250px;
+		height: 132px;
 	}
 	&__logo-text {
-		.yanone();
+		.sans();
 		font-size: 36px;
 		color: #fff;
 	}
 	&__info {
-
+		margin-top: 65px;
+		text-align: center;
+		float: left;
+		width: 600px;
 	}
 	&__info-list {
-
+		display: inline-block;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		.clearfix();
 	}
 	&__info-item {
-
+		float: left;
+		font-size: 14px;
+		margin-right: 70px;
+		&:last-child {
+			margin-right: 0;
+		}
 	}
 	&__info-link {
-
+		color: #fff;
+		transition: opacity .3s;
+		&:hover {
+			color: #fff;
+			opacity: .8;
+			text-decoration: none;
+		}
+		&_strong {
+			font-weight: bold;
+			font-size: 16px;
+		}
 	}
 }
