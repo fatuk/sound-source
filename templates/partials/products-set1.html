@@ -1,25 +1,22 @@
-<main class="content">
+<!-- Products set -->
+<div class="products-set">
 	<div class="container">
+		<h2 class="products-set__title">
+			Самое ходовое в этом месяце
+		</h2>
 		<div class="content__row">
-			<div class="content__column-3">
-				{{>carousel}}
+			<div class="content__column-1">
+				{{>product1}}
+			</div>
+			<div class="content__column-1">
+				{{>product2}}
 			</div>
 			<div class="content__column-1">
 				{{>product1}}
 			</div>
-		</div>
-		<div class="content__row">
 			<div class="content__column-1">
 				{{>product2}}
 			</div>
-			<div class="content__column-2">
-				{{>tip}}
-			</div>
-			<div class="content__column-1">
-				{{>genres}}
-			</div>
 		</div>
 	</div>
-	{{>breaking-message}}
-	{{>products-set1}}
-</main>
+</div>
