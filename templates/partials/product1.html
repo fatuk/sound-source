@@ -1,22 +1,19 @@
 <!-- Product tile -->
 	<div class="product">
-		<img src="#" alt="" class="product__img">
+		<img src="img/guitar1.png" alt="" class="product__img">
 		<div class="product__flag">
-			<span class="product__flag-title">Акция</span>
-			<span class="product__flag-value">-40%</span>
+			<div class="product__flag-title">Акция</div>
+			<div class="product__flag-value">-40%</div>
 		</div>
 		<!-- Wish button -->
-		<div class="wish-btn">
+		<label class="wish-btn">
 			<input type="checkbox" class="wish-btn__checkbox">
-			<div class="wish-btn__text">Я хочу</div>
-		</div>
+			<div class="wish-btn__text">я хочу</div>
+		</label>
 		<!-- Wish block -->
 		<div class="wish">
-			<div class="wish__title">
-				Я хочу
-			</div>
 			<a href="#" class="wish__close">
-				<i class="icon icon-close"></i>
+				<img src="img/icons/close-white.svg" alt="" class="wish__close-img">
 			</a>
 			<p class="wish__text">
 				Расскажите друзьям в соцсетях, что очень хотите этот инструмент:
@@ -46,7 +43,14 @@
 				</h2>
 				<!-- Rate -->
 				<div class="rate">
-					rating
+					<select class="js-rating" name="rating" readonly>
+						<option value=""></option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4" selected>4</option>
+						<option value="5">5</option>
+					</select>
 				</div>
 			</div>
 			<ul class="product__info-list">
@@ -69,8 +73,10 @@
 				<div class="product__price">5 800 руб.</div>
 			</div>
 			<a href="#" class="btn">
-				<i class="icon icon cart"></i>
-				Купить
+				<svg viewBox="0 0 20 20" class="icon icon-cart">
+					<use xlink:href="#cart"></use>
+				</svg>
+				купить
 			</a>
 		</footer>
 	</div>

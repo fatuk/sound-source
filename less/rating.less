@@ -1,0 +1,17 @@
+.br-widget {
+	height: 24px;
+	a {
+		background: url('../img/icons/star_empty.svg');
+		width: 24px;
+		height: 24px;
+		display: block;
+		float: left;
+		&:hover {
+			background: url('../img/icons/star_full.svg');
+		}
+		&.br-active,
+		&.br-selected {
+			background: url('../img/icons/star_full.svg');
+		}
+	}
+}

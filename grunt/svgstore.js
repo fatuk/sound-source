@@ -7,7 +7,7 @@ module.exports = {
 	},
 	default: {
 		files: {
-			'templates/partials/svg-icons.mustache': ['svg.min/*.svg']
+			'templates/partials/svg-icons.html': ['svg.min/*.svg']
 		}
 	}
 };

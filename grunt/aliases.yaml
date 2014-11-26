@@ -1,6 +1,7 @@
 default:
   - 'less'
   - 'autoprefixer'
+  - 'svg'
   - 'uglify'
   - 'mustache_render'
   - 'connect'
