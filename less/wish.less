@@ -1,16 +1,28 @@
 .wish {
-	display: none;
-	&__close {
-		padding: 5px;
-		display: inline-block;
+	background: rgba(51,76,93,.9);
+	position: absolute;
+	bottom: -100px;
+	left: 0;
+	height: 200px;
+	padding-top: 80px;
+	transition: bottom .3s;
+	&.show {
+		bottom: 150px;
 	}
-	&__close-img {
+	&__close {
+		display: inline-block;
+		position: absolute;
+		top: 20px;
+		right: 20px;
 		width: 13px;
 		height: 13px;
-		display: inline-block;
+		.icon {
+			width: 100%;
+		}
 	}
 	&__text {
 		font-size: 14px;
+		line-height: 20px;
 		color: #fff;
 		text-align: center;
 	}
