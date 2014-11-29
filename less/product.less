@@ -132,4 +132,32 @@
 		color: #000;
 		opacity: .9;
 	}
+	&_white {
+		background: #fff;
+		.product__footer {
+			background: #fff;
+		}
+		.wish-btn {
+			border-color: #334c5d;
+			transition: opacity .3s, background .3s, right .3s, border .3s, margin .3s;
+			&:hover {
+				opacity: .8;
+				background: #334c5d;
+				.wish-btn__text {
+					color: #fff;
+				}
+			}
+			&.checked {
+				border-color: #fff;
+				background: none;
+				.wish-btn__text {
+					color: #fff;
+				}
+			}
+		}
+		.wish-btn__text {
+			color: #334c5d;
+			transition: color .3s;
+		}
+	}
 }

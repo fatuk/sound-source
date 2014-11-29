@@ -1,88 +1,92 @@
 <!-- Product tile -->
-	<div class="product">
-		<img src="img/mixer1.png" alt="" class="product__img">
-		<div class="product__flag">
-			<div class="product__flag-title">Акция</div>
-			<div class="product__flag-value">-40%</div>
-		</div>
-		<!-- Wish button -->
-		<label class="wish-btn">
-			<input type="checkbox" class="wish-btn__checkbox">
-			<div class="wish-btn__text">я хочу</div>
-		</label>
-		<!-- Wish block -->
-		<div class="wish">
-			<a href="#" class="wish__close">
-				<img src="img/icons/close-white.svg" alt="" class="wish__close-img">
-			</a>
-			<p class="wish__text">
-				Расскажите друзьям в соцсетях, что очень хотите этот инструмент:
-			</p>
-			<ul class="wish__btn-list">
-				<li class="wish__btn-item">
-					<a href="#" class="wish__btn-link">
-						<i class="icon icon-twitter"></i>
-					</a>
-				</li>
-				<li class="wish__btn-item">
-					<a href="#" class="wish__btn-link">
-						<i class="icon icon-facebook"></i>
-					</a>
-				</li>
-				<li class="wish__btn-item">
-					<a href="#" class="wish__btn-link">
-						<i class="icon icon-vk"></i>
-					</a>
-				</li>
-			</ul>
-		</div>
-		<div class="product__info">
-			<div class="product__info-container">
-				<h2 class="product__title">
-					Микшер Yamaha SA2200
-				</h2>
-				<!-- Rate -->
-				<div class="rating">
-					<select class="js-rating" name="rating" readonly>
-						<option value=""></option>
-						<option value="1">1</option>
-						<option value="2">2</option>
-						<option value="3" selected>3</option>
-						<option value="4">4</option>
-						<option value="5">5</option>
-					</select>
-					<sapn class="rating__reviews">
-						(20 отзывов)
-					</sapn>
-				</div>
-			</div>
-			<ul class="product__info-list">
-				<li class="product__info-item">
-					Основное: 30 каналов
-				</li>
-				<li class="product__info-item">
-					Тип: цифровой
-				</li>
-				<li class="product__info-item product__info-item_no-bullet">
-					<a href="#" class="product__info-link">
-						подробнее о товаре
-						<svg viewBox="0 0 20 20" class="icon icon-chevron-right">
-							<use xlink:href="#chevron-right"></use>
-						</svg>
-					</a>
-				</li>
-			</ul>
-		</div>
-		<footer class="product__footer">
-			<div class="product__footer-container">
-				<div class="product__old-price">3 2116</div>
-				<div class="product__price">2 399 руб.</div>
-			</div>
-			<a href="#" class="btn">
-				<svg viewBox="0 0 20 20" class="icon icon-cart">
-					<use xlink:href="#cart"></use>
-				</svg>
-				купить
-			</a>
-		</footer>
+<div class="product product_white js-product">
+	<img src="img/piano1.png" alt="" class="product__img">
+	<div class="product__flag">
+		<div class="product__flag-title">Акция</div>
+		<div class="product__flag-value">-40%</div>
 	</div>
+	<!-- Wish button -->
+	<label class="wish-btn js-wishBtn">
+		<input type="checkbox" class="wish-btn__checkbox js-wishBtnCheckbox">
+		<div class="wish-btn__text">я хочу</div>
+	</label>
+	<!-- Wish block -->
+	<div class="wish js-wishBlock">
+		<a href="#" class="wish__close js-cancelWish">
+			<svg viewBox="0 0 20 20" class="icon icon-close">
+				<use xlink:href="#close"></use>
+			</svg>
+		</a>
+		<p class="wish__text">
+			Расскажите друзьям в соцсетях, что очень хотите этот инструмент:
+		</p>
+		<div class="socials">
+			<ul class="socials__list">
+				<li class="socials__item">
+					<a href="#" class="socials__link">
+						<img src="img/icons/social/tw.svg" alt="" class="socials__img">
+					</a>
+				</li>
+				<li class="socials__item">
+					<a href="#" class="socials__link">
+						<img src="img/icons/social/fb.svg" alt="" class="socials__img">
+					</a>
+				</li>
+				<li class="socials__item">
+					<a href="#" class="wish__btn-link">
+						<img src="img/icons/social/vk.svg" alt="" class="socials__img">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="product__info">
+		<div class="product__info-container">
+			<h2 class="product__title">
+				Микшер Yamaha SA2200
+			</h2>
+			<!-- Rate -->
+			<div class="rating">
+				<select class="js-rating" name="rating" readonly>
+					<option value=""></option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3" selected>3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+				<sapn class="rating__reviews">
+					(20 отзывов)
+				</sapn>
+			</div>
+		</div>
+		<ul class="product__info-list">
+			<li class="product__info-item">
+				Основное: 30 каналов
+			</li>
+			<li class="product__info-item">
+				Тип: цифровой
+			</li>
+			<li class="product__info-item product__info-item_no-bullet">
+				<a href="#" class="product__info-link">
+					подробнее о товаре
+					<svg viewBox="0 0 20 20" class="icon icon-chevron-right">
+						<use xlink:href="#chevron-right"></use>
+					</svg>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<footer class="product__footer">
+		<div class="product__footer-container">
+			<div class="product__old-price">3 2116</div>
+			<div class="product__price">2 399 руб.</div>
+		</div>
+		<a href="#" class="btn">
+			<svg viewBox="0 0 20 20" class="icon icon-cart">
+				<use xlink:href="#cart"></use>
+			</svg>
+			купить
+		</a>
+	</footer>
+</div>

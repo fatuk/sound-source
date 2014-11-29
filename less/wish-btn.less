@@ -7,10 +7,12 @@
 	height: 30px;
 	cursor: pointer;
 	padding: 0 20px;
-	transition: right .3s;
+	transition: right .3s, margin .3s;
+	margin: 0;
 	z-index: 5;
 	&.checked {
-		right: 100px;
+		right: 50%;
+		margin-right: -(85px / 2);
 	}
 	&__checkbox {
 		position: absolute;

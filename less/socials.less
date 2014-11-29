@@ -7,15 +7,22 @@
 		padding: 0;
 		margin: 0;
 		display: inline;
-		// .clearfix();
 	}
 	&__item {
 		display: inline;
-		// float: left;
 	}
 	&__link {
 		display: inline-block;
 		display: inline;
+		transition: opacity .3s;
+		&:hover {
+			opacity: .8;
+		}
+	}
+	&__img {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
 	}
 	&:after {
 		content: '';
