@@ -4,6 +4,16 @@ body {
 	.roboto();
 }
 
+// Selection color
+@selection-color: lighten(#15B287, 10%);
+::selection {
+  background: @selection-color; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: @selection-color; /* Gecko Browsers */
+}
+
 a {
 	text-decoration: none;
 }
